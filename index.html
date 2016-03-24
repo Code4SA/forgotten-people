@@ -2710,7 +2710,9 @@ A member of the Cape Town mayoral committee for human settlements, Benedicta van
           <script src="js/page.js"></script>
           <script src="js/pym.js"></script>
         <script>
-          var pymChild = new pym.Child({ id: 'forgotten-people-index' });
+          var pymChild = new pym.Child({ id: 'forgotten-people-index',
+                                         polling: 500
+                                       });
         </script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
